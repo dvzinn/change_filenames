@@ -1,8 +1,6 @@
 // Go through all steps within the QuadraNiftiTool. 
 // Then place the files within the mr2pet_hires folder and run this macro script in ImageJ.
 
-parent = "C:/Scans_Daniella";  // optional start location
-
 // Open a dialog asking the user to select the PET folder that contains the files to rename
 petdir = getDirectory("Select PET folder (sub-..._totalbody...)");
 
